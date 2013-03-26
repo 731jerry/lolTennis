@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AC6BAE13EC720600005E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AC6BAD13EC720600005E27 /* UIKit.framework */; };
+		84AC6BB013EC720600005E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AC6BAF13EC720600005E27 /* Foundation.framework */; };
+		84AC6BB213EC720600005E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AC6BB113EC720600005E27 /* CoreGraphics.framework */; };
+		84AC6BB813EC720600005E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BB613EC720600005E27 /* InfoPlist.strings */; };
+		84AC6BBB13EC720600005E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC6BBA13EC720600005E27 /* main.m */; };
+		84AC6BBE13EC720600005E27 /* lolTennisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC6BBD13EC720600005E27 /* lolTennisAppDelegate.m */; };
+		84AC6BC113EC720600005E27 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BBF13EC720600005E27 /* MainWindow.xib */; };
+		84AC6BC413EC720600005E27 /* lolTennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC6BC313EC720600005E27 /* lolTennisViewController.m */; };
+		84AC6BC713EC720600005E27 /* lolTennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BC513EC720600005E27 /* lolTennisViewController.xib */; };
+		84AC6BCF13EC723700005E27 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC6BCE13EC723700005E27 /* SplashViewController.m */; };
+		84AC6BDB13EC733200005E27 /* icon-smaill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD113EC733100005E27 /* icon-smaill@2x.png */; };
+		84AC6BDC13EC733200005E27 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD213EC733100005E27 /* icon-small.png */; };
+		84AC6BDD13EC733200005E27 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD313EC733200005E27 /* icon.png */; };
+		84AC6BDE13EC733200005E27 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD413EC733200005E27 /* icon@2x.png */; };
+		84AC6BDF13EC733200005E27 /* SplashView.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD513EC733200005E27 /* SplashView.png */; };
+		84AC6BE013EC733200005E27 /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD613EC733200005E27 /* court.png */; };
+		84AC6BE113EC733200005E27 /* Racquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD713EC733200005E27 /* Racquet_Yellow.png */; };
+		84AC6BE213EC733200005E27 /* Racquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD813EC733200005E27 /* Racquet_Green.png */; };
+		84AC6BE313EC733200005E27 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BD913EC733200005E27 /* Ball.png */; };
+		84AC6BE413EC733200005E27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6BDA13EC733200005E27 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84AC6BA913EC720600005E27 /* lolTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lolTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AC6BAD13EC720600005E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AC6BAF13EC720600005E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AC6BB113EC720600005E27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AC6BB513EC720600005E27 /* lolTennis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lolTennis-Info.plist"; sourceTree = "<group>"; };
+		84AC6BB713EC720600005E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AC6BB913EC720600005E27 /* lolTennis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lolTennis-Prefix.pch"; sourceTree = "<group>"; };
+		84AC6BBA13EC720600005E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AC6BBC13EC720600005E27 /* lolTennisAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lolTennisAppDelegate.h; sourceTree = "<group>"; };
+		84AC6BBD13EC720600005E27 /* lolTennisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lolTennisAppDelegate.m; sourceTree = "<group>"; };
+		84AC6BC013EC720600005E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84AC6BC213EC720600005E27 /* lolTennisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lolTennisViewController.h; sourceTree = "<group>"; };
+		84AC6BC313EC720600005E27 /* lolTennisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lolTennisViewController.m; sourceTree = "<group>"; };
+		84AC6BC613EC720600005E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/lolTennisViewController.xib; sourceTree = "<group>"; };
+		84AC6BCD13EC723700005E27 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		84AC6BCE13EC723700005E27 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		84AC6BD113EC733100005E27 /* icon-smaill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-smaill@2x.png"; sourceTree = "<group>"; };
+		84AC6BD213EC733100005E27 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		84AC6BD313EC733200005E27 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		84AC6BD413EC733200005E27 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		84AC6BD513EC733200005E27 /* SplashView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashView.png; sourceTree = "<group>"; };
+		84AC6BD613EC733200005E27 /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court.png; sourceTree = "<group>"; };
+		84AC6BD713EC733200005E27 /* Racquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Racquet_Yellow.png; sourceTree = "<group>"; };
+		84AC6BD813EC733200005E27 /* Racquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Racquet_Green.png; sourceTree = "<group>"; };
+		84AC6BD913EC733200005E27 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		84AC6BDA13EC733200005E27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AC6BA613EC720600005E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AC6BAE13EC720600005E27 /* UIKit.framework in Frameworks */,
+				84AC6BB013EC720600005E27 /* Foundation.framework in Frameworks */,
+				84AC6BB213EC720600005E27 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AC6B9E13EC720600005E27 = {
+			isa = PBXGroup;
+			children = (
+				84AC6BB313EC720600005E27 /* lolTennis */,
+				84AC6BAC13EC720600005E27 /* Frameworks */,
+				84AC6BAA13EC720600005E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AC6BAA13EC720600005E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AC6BA913EC720600005E27 /* lolTennis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AC6BAC13EC720600005E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AC6BAD13EC720600005E27 /* UIKit.framework */,
+				84AC6BAF13EC720600005E27 /* Foundation.framework */,
+				84AC6BB113EC720600005E27 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AC6BB313EC720600005E27 /* lolTennis */ = {
+			isa = PBXGroup;
+			children = (
+				84AC6BD013EC731800005E27 /* Resources */,
+				84AC6BBC13EC720600005E27 /* lolTennisAppDelegate.h */,
+				84AC6BBD13EC720600005E27 /* lolTennisAppDelegate.m */,
+				84AC6BBF13EC720600005E27 /* MainWindow.xib */,
+				84AC6BC213EC720600005E27 /* lolTennisViewController.h */,
+				84AC6BC313EC720600005E27 /* lolTennisViewController.m */,
+				84AC6BC513EC720600005E27 /* lolTennisViewController.xib */,
+				84AC6BCD13EC723700005E27 /* SplashViewController.h */,
+				84AC6BCE13EC723700005E27 /* SplashViewController.m */,
+				84AC6BB413EC720600005E27 /* Supporting Files */,
+			);
+			path = lolTennis;
+			sourceTree = "<group>";
+		};
+		84AC6BB413EC720600005E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AC6BB513EC720600005E27 /* lolTennis-Info.plist */,
+				84AC6BB613EC720600005E27 /* InfoPlist.strings */,
+				84AC6BB913EC720600005E27 /* lolTennis-Prefix.pch */,
+				84AC6BBA13EC720600005E27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AC6BD013EC731800005E27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84AC6BD113EC733100005E27 /* icon-smaill@2x.png */,
+				84AC6BD213EC733100005E27 /* icon-small.png */,
+				84AC6BD313EC733200005E27 /* icon.png */,
+				84AC6BD413EC733200005E27 /* icon@2x.png */,
+				84AC6BD513EC733200005E27 /* SplashView.png */,
+				84AC6BD613EC733200005E27 /* court.png */,
+				84AC6BD713EC733200005E27 /* Racquet_Yellow.png */,
+				84AC6BD813EC733200005E27 /* Racquet_Green.png */,
+				84AC6BD913EC733200005E27 /* Ball.png */,
+				84AC6BDA13EC733200005E27 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AC6BA813EC720600005E27 /* lolTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AC6BCA13EC720600005E27 /* Build configuration list for PBXNativeTarget "lolTennis" */;
+			buildPhases = (
+				84AC6BA513EC720600005E27 /* Sources */,
+				84AC6BA613EC720600005E27 /* Frameworks */,
+				84AC6BA713EC720600005E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lolTennis;
+			productName = lolTennis;
+			productReference = 84AC6BA913EC720600005E27 /* lolTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AC6BA013EC720600005E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Maine";
+			};
+			buildConfigurationList = 84AC6BA313EC720600005E27 /* Build configuration list for PBXProject "lolTennis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84AC6B9E13EC720600005E27;
+			productRefGroup = 84AC6BAA13EC720600005E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AC6BA813EC720600005E27 /* lolTennis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AC6BA713EC720600005E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AC6BB813EC720600005E27 /* InfoPlist.strings in Resources */,
+				84AC6BC113EC720600005E27 /* MainWindow.xib in Resources */,
+				84AC6BC713EC720600005E27 /* lolTennisViewController.xib in Resources */,
+				84AC6BDB13EC733200005E27 /* icon-smaill@2x.png in Resources */,
+				84AC6BDC13EC733200005E27 /* icon-small.png in Resources */,
+				84AC6BDD13EC733200005E27 /* icon.png in Resources */,
+				84AC6BDE13EC733200005E27 /* icon@2x.png in Resources */,
+				84AC6BDF13EC733200005E27 /* SplashView.png in Resources */,
+				84AC6BE013EC733200005E27 /* court.png in Resources */,
+				84AC6BE113EC733200005E27 /* Racquet_Yellow.png in Resources */,
+				84AC6BE213EC733200005E27 /* Racquet_Green.png in Resources */,
+				84AC6BE313EC733200005E27 /* Ball.png in Resources */,
+				84AC6BE413EC733200005E27 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AC6BA513EC720600005E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AC6BBB13EC720600005E27 /* main.m in Sources */,
+				84AC6BBE13EC720600005E27 /* lolTennisAppDelegate.m in Sources */,
+				84AC6BC413EC720600005E27 /* lolTennisViewController.m in Sources */,
+				84AC6BCF13EC723700005E27 /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84AC6BB613EC720600005E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AC6BB713EC720600005E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84AC6BBF13EC720600005E27 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AC6BC013EC720600005E27 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84AC6BC513EC720600005E27 /* lolTennisViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AC6BC613EC720600005E27 /* en */,
+			);
+			name = lolTennisViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AC6BC813EC720600005E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84AC6BC913EC720600005E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		84AC6BCB13EC720600005E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lolTennis/lolTennis-Prefix.pch";
+				INFOPLIST_FILE = "lolTennis/lolTennis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84AC6BCC13EC720600005E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lolTennis/lolTennis-Prefix.pch";
+				INFOPLIST_FILE = "lolTennis/lolTennis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AC6BA313EC720600005E27 /* Build configuration list for PBXProject "lolTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AC6BC813EC720600005E27 /* Debug */,
+				84AC6BC913EC720600005E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AC6BCA13EC720600005E27 /* Build configuration list for PBXNativeTarget "lolTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AC6BCB13EC720600005E27 /* Debug */,
+				84AC6BCC13EC720600005E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AC6BA013EC720600005E27 /* Project object */;
+}
